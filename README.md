@@ -4,14 +4,14 @@ A Security Information and Event Management (SIEM) project demonstrating real-ti
 
 ---
 
-## Overview
+##  Overview
 
-This project demonstrates the deployment and configuration of Wazuh SIEM v4.14.0 integrated with multiple threat intelligence tools for automated real-time threat detection, analysis, and incident response.
+This project demonstrates the deployment and configuration of **Wazuh SIEM v4.14.0** integrated with multiple threat intelligence tools for automated real-time threat detection, analysis, and incident response.
 
-The entire stack runs on Kali Linux 2026.2 using Docker Engine 29.6.0. The Wazuh Manager, Indexer, and Dashboard run inside Docker containers, while the Wazuh Agent is installed directly on the Kali Linux host machine (BLACKICE) — making the Kali host itself the monitored endpoint.
+The entire stack runs on **Kali Linux 2026.2** using **Docker Engine 29.6.0**. The Wazuh Manager, Indexer, and Dashboard run inside Docker containers, while the **Wazuh Agent is installed directly on the Kali Linux host machine (BLACKICE)** — making the Kali host itself the monitored endpoint.
 
+> ⚠️ **Endpoint Clarification:** The Wazuh Agent monitors the **Kali Linux host machine (BLACKICE)**, not the Docker containers. The agent communicates with the Wazuh Manager container over port 1514 on localhost (127.0.0.1).
 
-⚠️ Endpoint Clarification: The Wazuh Agent monitors the Kali Linux host machine (BLACKICE), not the Docker containers. The agent communicates with the Wazuh Manager container over port 1514 on localhost (127.0.0.1).
 ---
 
 ## Architecture
