@@ -35,14 +35,14 @@ The entire stack runs on **Kali Linux 2026.2** using **Docker Engine 29.6.0**. T
 │  │     /etc | /usr/bin | /usr/sbin | /tmp           │    │
 │  └──────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────┘
-                          │
-            API calls from Wazuh Manager
-              ┌───────────┼───────────┐
-              ▼           ▼           ▼
-   ┌──────────────┐ ┌───────────┐ ┌──────────────┐
-   │  VirusTotal  │ │AlienVault │ │ MITRE ATT&CK │
-   │     API      │ │  OTX API  │ │  Framework   │
-   └──────────────┘ └───────────┘ └──────────────┘
+│
+API calls from Wazuh Manager
+┌───────────┼───────────┐
+▼           ▼           ▼
+┌──────────────┐ ┌───────────┐ ┌──────────────┐
+│  VirusTotal  │ │AlienVault │ │ MITRE ATT&CK │
+│     API      │ │  OTX API  │ │  Framework   │
+└──────────────┘ └───────────┘ └──────────────┘
 ---
 
 ## Integrations
