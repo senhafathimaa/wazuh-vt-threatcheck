@@ -217,7 +217,6 @@ Add to ossec.conf:
 ##  Author
 
 **Senhafathima**
-
 Cybersecurity Student | SOC Analyst Enthusiast
 ---
 
