@@ -216,9 +216,9 @@ Add to ossec.conf:
 
 ##  Author
 
-**Senhafathimaa**
-Cybersecurity Diploma Student (Post BCA)
+**Senhafathima**
 
+Cybersecurity Student | SOC Analyst Enthusiast
 ---
 
 ##  Disclaimer
@@ -237,6 +237,3 @@ This project is for **educational purposes only**. All testing was performed usi
 
 
 
-**Senha Fathima**
-
-Cybersecurity Student | SOC Analyst Enthusiast
